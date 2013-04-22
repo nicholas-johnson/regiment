@@ -13,5 +13,6 @@
     this.each(function(i, el) {
       $(el).css('height', maxHeight+"px");
     });
+    return this;
   }
 })(jQuery);
