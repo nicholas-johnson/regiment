@@ -1,6 +1,11 @@
-// Regiment.js
-// Released under the MIT licence.
+/*
+  Plugin to equalise the heights of a set of elements.
 
+  Version 1.0.0
+  www.github.com/forwardadvance/regiment
+
+  Released under the MIT licence.
+  */
 (function($) {
   $.fn.regiment = function() {
     var maxHeight = 0;
@@ -16,3 +21,5 @@
     return this;
   }
 })(jQuery);
+
+$('div.widget').regiment();

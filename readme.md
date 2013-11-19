@@ -14,7 +14,7 @@ Import jQuery and regiment.js, then do something like:
 
 ## Dealing with images
 
-If your element contains images, the height of those images may not be available when you first load the page. In this case, either specify the height of your image in CSS, or execute the script on window load, like this:
+If your element contains images of unknown height, the height of those images may not be available when you first load the page. In this case, either specify the height of your image in CSS, or execute the script on window load, like this:
 
     $(window).load(function () {
       $(".homepage .widget").regiment();

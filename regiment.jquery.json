@@ -1,0 +1,28 @@
+{
+    "name": "regiment",
+    "title": "Regiment",
+    "description": "A JQuery plugin to equalise the heights of a set of elements.",
+    "keywords": [
+        "height",
+        "layout",
+        "styling"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Nicholas Johnson",
+        "url": "http://www.nicholasjohnson.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/forwardadvance/regiment/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/forwardadvance/regiment/issues",
+    "homepage": "https://github.com/forwardadvance/regiment",
+    "docs": "https://github.com/forwardadvance/regiment/blob/master/README.md",
+    "download": "https://github.com/forwardadvance/regiment",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
